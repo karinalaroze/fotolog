@@ -1,5 +1,11 @@
    function agregarPosteo(){
-        var contenedor = documentElementById(contenedor-posteos)
+        var contenedor = documentElementById("contenedor-posteos");
+        var nombreFF = document.getElementById("nombre").value;
+        var contenidoFF = document.getElementById("cajaposteos").value;
+        var nuevoPost = document.createElement("div");
+        var contenedorNombre = document.createElement("strong");
+        var contenedorPost = document.createElement("p");
+        var separacion = document.createElement("hr");
     var elem_p = document.createElement('p');
     var elem_em = document.createElement('em');
     var elem_strong = document.createElement('strong');
